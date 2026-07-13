@@ -1,0 +1,2 @@
+MODEL, LANGUAGE, COMMENT, RESULT, CONFIDENCE
+classical_sentmient,COMBINED,"Oh brilliant, it's raining again.",Non-Sarcastic  |  Positive,Sarcasm: 51.2%  |  Sentiment: 50.2%

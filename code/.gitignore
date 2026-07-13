@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Model artifact folders (any location)
+/saved_models/
+**/saved_models/*
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# PyTorch / model files / checkpoints
+*.pt
+*.pth
+*.bin
+*.ckpt
+/checkpoints/
+/runs/
+/logs/
+/results/
+/output/
+/model_weights/
+
+# Caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# HuggingFace / transformers cache
+.cache/huggingface
+.cache/torch
+hf_cache/
+transformers_cache/
+
+# Data (do not commit datasets or large raw files)
+data/
+datasets/
+*.tsv
+*.jsonl
+
+# SQLite / DB files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*~
+
+
+# --- LLM Variations 2.3 --- #
+# tinyllama adapters
+tinyllama_adapters/
+
+# xlmr checkpoints
+xlmr_checkpoints/
+
+# Qwen adapters
+qwen_adapters/
+
+# XLMR LoRA adapters
+xlmr_lora_adapters/
+
+# --- Classical vs Transformer 2.1 ---#
+classical_vs_transformer_2_1/saved_models/
+
+# --- Encoder Variations 2.2 ---#
+# encoder_variations_2_2/saved_models/
